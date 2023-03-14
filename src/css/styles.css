@@ -1,0 +1,554 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+
+
+}
+body{
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+}
+.fontClassBold 
+{
+
+    font-size: 100%;
+    font-weight: 700;
+    display: block;
+    align-self: center;
+    
+
+
+
+}
+
+
+
+.stripe{
+    font-size: 100px;
+}
+
+.NavDesk{
+    display: flex; width: 100%; align-Items: center; justify-Items: end; justify-content:flex-end; padding-right: 10px; -webkit-justify-content: flex-end;
+}
+
+.NavMobile{
+    display: none; width: 100%; align-Items: center; justify-Items: end; justify-content:flex-end; padding-right: 10px; -webkit-justify-content: flex-end;
+}
+
+.NavMobille{
+    display: none; width: 100%; align-Items: center; justify-Items: end; justify-content:flex-end; padding-right: 10px; -webkit-justify-content: flex-end;
+}
+
+.fontClassP 
+{
+
+    font-size: 95%;
+    font-weight:normal;
+    display: block;
+    align-self: center;
+    
+
+
+
+}
+
+.imageIcon {
+    width:20%
+   }
+
+   .minglemiixLogo{
+
+    width: 20%;
+    position: absolute;
+    top: 15%; 
+    left: 5%;
+}
+
+.tabs{
+   width:10%; 
+}
+
+.imgScreen{
+
+    width:85%;
+}
+
+.imgScreenn{
+
+    width:60%;
+}
+
+.imgScreennn{
+    width:75%;
+}
+
+.imgScreennnn{
+    width:25%;
+}
+
+.b{
+    color: white; font-size: 55px; font-weight: bolder; display: block; padding-block: 10px;
+     text-align: center; text-transform:none;
+}
+.bApp{
+    color: black; font-size: 20px; font-weight: bolder; display: block; padding-block: 10px;
+     text-align: center; text-transform: uppercase;
+}
+
+.p{
+    color: white; font-size: 25px; font-weight:350;
+    padding-block: 10px;
+    text-align: center;
+    text-transform:none;
+ 
+}
+
+
+
+.bb{
+     font-size: 45px; font-weight: bolder; display: block; padding-block: 10px;
+     text-align: center; text-transform:none;
+}
+
+.pp{
+    font-size: 20px; font-weight:350;
+    padding-block: 10px;
+    text-align: center;
+    text-transform:none;
+  
+ 
+}
+.ppp{
+    font-size: 20px; font-weight:350;
+    padding-block: 10px;
+    text-align: left;
+    text-transform:none;
+  
+ 
+}
+
+.div{
+    display: block;  margin-top: 60px;
+}
+
+.imgSce{
+    width: 160px;
+  }
+  .divFlex{
+    display:flex;
+    margin-bottom: 10px;
+    width:100%;
+            align-items: center;
+            justify-items:center;
+            padding: 10px;
+            padding-top: 40px;
+            justify-content: center;
+            
+  }
+.divsss{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-items: end;
+   
+   
+    
+}
+
+
+
+.divvv{
+    display: none;
+    width: 100%;
+}
+
+
+.divContainer{
+    display:flex; align-Items:center; width:100%;
+}
+.divContainerr{
+    display:flex; flex-direction: row; align-Items:center; width:100%;
+}
+
+.aSignup{
+    color:white;
+   
+    border-radius:3px;
+    padding:10px;
+    justify-self:end;
+    font-size:20px;
+    font-weight:bolder;
+    text-decoration:none;
+    background-color: rgb(15, 103, 232);
+    
+    display: flex;
+    align-items: center;
+}
+
+.aSignup:hover{
+    color:white;
+   
+    border-radius:3px;
+    padding:10px;
+    justify-self:end;
+    font-size:20px;
+    font-weight:bolder;
+    background-color: rgb(15, 103, 232);
+    text-decoration:none;
+    
+   
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .imageIcon {
+     width:45%
+    }
+
+    .minglemiixLogo{
+
+        width: 25%;
+        position: absolute;
+        top: 1.7%; 
+        left: 5%;
+    }
+
+    .tabs{
+        width:30%;
+    }
+
+    .NavDesk{
+        display: none; width: 100%; align-Items: center; justify-Items: end; justify-Content:flex-end; padding-Right: 15; -webkit-justify-content: flex-end;
+    }
+
+    .NavMobile{
+        display: flex; width: 100%; align-Items: center; justify-Items: end; justify-Content:flex-end; padding-Right: 15; -webkit-justify-content: flex-end;
+    }
+    
+    .NavMobille{
+        display: flex; flex-direction: column; width: 100%; align-Items: center; justify-Items: end; justify-Content:flex-end; padding-Right: 15; -webkit-justify-content: flex-end;
+    }
+    
+    .stripe{
+        font-size: 70px;
+    }
+    .b{
+        color: white; font-size: 40px; font-weight: bolder; display: block; padding-block: 10px;
+         text-align: center; text-transform:none;
+    }
+    
+    .bApp{
+        color: black; font-size: 20px; font-weight: bolder; display: block; padding-block: 10px;
+         text-align: center; text-transform:none;
+    }
+
+
+    .p{
+        color: white; font-size: 20px; font-weight:350; padding-block: 10px;
+        text-align: center;
+        text-transform: none;
+    }
+
+    
+    .bb{
+         font-size: 25px; font-weight: bolder; display: block; padding-block: 10px;
+         text-align: center; text-transform:none;
+    }
+    
+    .pp{
+        font-size: 15px; font-weight:350;
+        padding-block: 10px;
+        text-align: center;  text-transform:none;
+      
+     
+    }
+
+    .ppp{
+        font-size: 25px; font-weight:350;
+        padding-block: 10px;
+        text-align: left;
+        text-transform:none;
+      
+     
+    }
+
+    .divContainer{
+        display:flex; flex-direction: column; align-Items:center; width:100%;
+    }
+    .divContainerr{
+        display:flex; flex-direction: column; align-Items:center; width:100%;
+    }
+
+    .imgScreen{
+
+        width:100%;
+    }
+
+    .imgScreenn{
+
+        width:80%;
+    }
+
+    .imgScreennn{
+        width:100%;
+    }
+
+    .imgScreennnn{
+        width:30%;
+    }
+
+    .div{
+        display: block;  margin-top: 30px;
+    }
+
+    .imgSce{
+        width: 140px;
+      }
+      .divFlex{
+        display:flex;
+        margin-bottom: 10px;
+        width:100%;
+            align-items: center;
+            justify-items:center;
+            padding: 10px;
+            padding-top: 40px;
+            justify-content: center;
+           
+      }
+
+
+      .divsss{
+        display: flex;
+    width: 100%;
+    align-items: flex-end;
+  
+ 
+   
+       
+    }
+    
+    .divvv{
+        display: flex;
+        width: 100%;
+    }
+
+    .aSignup{
+        color:white;
+       
+        border-radius:3px;
+        padding:10px;
+        justify-self:end;
+        font-size:20px;
+        font-weight:bolder;
+        text-decoration:none;
+        background-color: rgb(15, 103, 232);
+       
+        display: flex;
+        align-items: center;
+    }
+
+    .aSignup:hover{
+        color:white;
+       
+        border-radius:3px;
+        padding:10px;
+        justify-self:end;
+        font-size:20px;
+        font-weight:bolder;
+        background-color: rgb(15, 103, 232);
+        text-decoration:none;
+        
+        display: flex;
+        align-items: center;
+    }
+    
+
+  }
+
+ 
+
+  @media (max-width: 980px) {
+    .imageIcon {
+     width:45%
+    }
+
+    .tabs{
+        width:30%;
+    }
+
+    .divContainer{
+        display:flex; flex-direction: column; align-Items:center; width:100%;
+    }
+
+    .divContainerr{
+        display:flex; flex-direction: column; align-Items:center; width:100%;
+    }
+
+    .stripe{
+        font-size: 70px;
+    }
+
+    .minglemiixLogo{
+
+        width: 25%;
+        position: absolute;
+        top: 1.7%; 
+        left: 5%;
+    }
+
+    .NavDesk{
+        display: none; width: 100%; align-Items: center; justify-Items: end; justify-content:flex-end; padding-right: 15; -webkit-justify-content: flex-end;
+    }
+    
+
+    .NavMobile{
+        display: flex; width: 100%; align-Items: center; justify-Items: end; justify-content:flex-end; padding-right: 15; -webkit-justify-content: flex-end;
+    }
+    .NavMobille{
+        display: flex; flex-direction: column; width: 100%; align-Items: center; justify-Items: end; justify-content:flex-end; padding-right: 15; -webkit-justify-content: flex-end;
+    }
+    .b{
+        color: white; font-size: 40px; font-weight: bolder; display: block; padding-block: 10px; 
+        text-align: center; text-transform:none;
+    }
+    
+    .bApp{
+        font-size: 20px; font-weight: bolder; display: block; padding-block: 10px;
+         text-align: center; text-transform:none;
+    }
+
+    .p{
+        color: white; font-size: 20px; font-weight:350; overflow-wrap: break-word; padding-block: 10px;
+        text-align: center;
+        text-transform: none;
+
+      
+    }
+
+    
+    .bb{
+         font-size: 25px; font-weight: bolder; display: block; padding-block: 10px;
+         text-align: center; text-transform:none;
+    }
+    
+    .pp{
+         font-size: 15px; font-weight:350;
+        padding-block: 10px;
+        text-align: center; text-transform:none;
+      
+     
+    }
+    .ppp{
+        font-size: 15px; font-weight:350;
+        padding-block: 10px;
+        text-align: left;
+        text-transform:none;
+      
+     
+    }
+
+    .imgScreen{
+
+        width:100%;
+    }
+
+
+    .imgScreenn{
+
+        width:80%;
+    }
+
+    .imgScreennn{
+        width:100%;
+    }
+    .imgScreennnn{
+        width:30%;
+    }
+    
+        .div{
+            display: block;  margin-top: 15px;
+        }
+
+        .imgSce{
+            width: 140px;
+          }
+          .divFlex{
+            display:flex;
+            margin-bottom: 10px;
+            width:100%;
+            align-items: center;
+            justify-items:center;
+            padding: 10px;
+            padding-top: 40px;
+            justify-content: center;
+       
+          }
+
+          .divsss{
+            display: flex;
+    width: 100%;
+    position: relative;
+    align-items: flex-end;
+    
+    
+            
+        }
+        
+        .divvv{
+            display: flex;
+            width: 100%;
+        }
+
+        .aSignup{
+            color:white;
+           
+            border-radius:3px;
+            padding:10px;
+            justify-self:end;
+            font-size:20px;
+            font-weight:bolder;
+            text-decoration:none;
+            background-color: rgb(15, 103, 232);
+           
+            display: flex;
+            align-items: center;
+        }
+    
+        .aSignup:hover{
+            color:white;
+           
+            border-radius:3px;
+            padding:10px;
+            justify-self:end;
+            font-size:20px;
+            font-weight:bolder;
+            background-color: rgb(15, 103, 232);
+            text-decoration:none;
+            
+            display: flex;
+            align-items: center;
+        }
+
+  }
+
+  @media (min-width: 900px) {
+    .ppp{
+        font-size: 20px; font-weight:350;
+        padding-block: 10px;
+        text-align: left;
+        text-transform:none;
+      
+     
+    }
+
+    .minglemiixLogo{
+
+        width: 25%;
+        position: absolute;
+        top: 1.7%; 
+        left: 5%;
+    }
+   
+  }

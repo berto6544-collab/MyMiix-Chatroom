@@ -1,0 +1,606 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+}
+
+.CardMain{
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.CardMain:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+
+
+@media(min-width:230px)
+{
+    .grid {
+
+
+      
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+        
+        padding: 16px;
+        
+        
+        
+        }
+
+
+        .gridd {
+
+
+      
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 16px;
+            
+            
+            
+            
+            }
+
+            #gridd {
+
+
+      
+                display: grid;
+                grid-gap: 16px;
+                grid-template-columns: repeat(1, 1fr);
+                padding: 16px;
+                
+                
+                
+                
+                }
+
+
+.imagess{
+    height:300px
+}
+
+        .CardType{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+           
+        }
+
+        .CarddType{
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            background-color:  white;
+        }
+
+ .about{
+    width: 100%;
+    
+    position: relative;
+ }       
+
+ .Date{
+     width:100%
+ } 
+ 
+        .searchBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+
+        .inputBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+
+        select{
+            width:47%;
+        }
+ 
+        .Cardpay{
+            width: 100%;
+           
+        }
+
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+
+}
+
+@media(min-width:768px)
+{
+    .grid {
+
+
+      
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 16px;
+        
+        
+        
+        
+        }
+
+        .gridd {
+
+
+      
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 16px;
+            
+            
+            
+            
+            }
+
+            #gridd {
+
+
+      
+                display: grid;
+                grid-gap: 16px;
+                grid-template-columns: repeat(2, 1fr);
+                padding: 16px;
+                
+                
+                
+                
+                }
+
+        select{
+            width:20%;
+        }
+
+        .imagess{
+            height:400px
+        }
+        .searchBar{
+            margin-bottom: 10px;
+            width:80%;
+            position: relative;
+
+        }
+
+        .inputBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+
+        .CardType{
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            
+            
+        }
+
+
+        .CarddType{
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            padding:16px;
+            background-color:  white;
+        }
+
+
+
+        .Cardpay{
+            width: 100%;
+            
+        }
+
+        .about{
+            width: 80%;
+            padding: 16px;
+            position: relative;
+
+         }   
+         .Date{
+            width:auto
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+}
+
+
+@media(min-width:1000px)
+{
+    .grid {
+
+
+       
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(3, 1fr);
+        
+        padding: 16px;
+        
+        
+        
+        }
+        .imagess{
+            height:400px
+        }
+        .gridd {
+
+
+      
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(3, 1fr);
+            
+            padding: 16px;
+            
+            
+            
+            }
+
+            #gridd {
+
+
+      
+                display: grid;
+                grid-gap: 16px;
+                grid-template-columns: repeat(3, 1fr);
+                
+                padding: 16px;
+                
+                
+                
+                }
+
+        .Date{
+            width:auto
+        }
+        .CardType{
+            display: flex;
+            flex-direction: row;
+          
+            
+            background-color: rgb(246, 245, 245);
+        }
+
+
+        .CarddType{
+            display: flex;
+            flex-direction: row;
+            padding:16px;
+            padding-inline: 80px;
+            background-color:  white;
+        }
+
+
+
+.textHeader{
+    color:white
+}
+
+        .Cardpay{
+            width: 100%;
+        }
+
+        .searchBar{
+            margin-bottom: 10px;
+            width:60%;
+            position: relative;
+
+        }
+
+        .inputBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+
+        .TitleText{
+            font-size: 3.4rem;
+        }
+
+        select{
+            width:25%;
+        }
+ 
+        .about{
+            width: 60%;
+            padding: 16px;
+            position: relative;
+
+         } 
+         .Date{
+            width:auto
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            width: 100%;
+            margin-bottom: 20px;
+            position: relative;
+        }
+ 
+    
+}
+
+
+
+
+
+@media(min-width:1300px)
+{
+    .grid {
+
+
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 16px;
+        
+        
+        
+        
+        }
+        .imagess{
+            height:400px
+        }
+
+        .gridd {
+
+
+      
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(3, 1fr);
+            
+            padding: 16px;
+            
+            
+            
+            }
+            #gridd {
+
+
+      
+                display: grid;
+                grid-gap: 16px;
+                grid-template-columns: repeat(3, 1fr);
+                
+                padding: 16px;
+                
+                
+                
+                }
+
+        select{
+            width:25%;
+        }
+
+.Cardpay{
+    width: 70%;
+}
+
+.Date{
+    width:auto
+}
+
+        .CardType{
+            display: flex;
+            flex-direction: row;
+            
+            background-color: rgb(246, 245, 245);
+        }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+        .CarddType{
+            display: flex;
+            flex-direction: row;
+            padding:16px;
+            padding-inline: 80px;
+            background-color:  white;
+        }
+
+
+        .searchBar{
+            margin-bottom: 10px;
+            width:60%;
+            position: relative;
+
+        }
+
+        .inputBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+
+        .TitleText{
+            font-size: 3.4rem;
+        }
+
+        .textHeader{
+            color:white
+        }
+
+        .about{
+            width: 50%;
+            padding: 70px;
+            position: relative;
+
+         } 
+ 
+    
+}
+
+@media(min-width:1650px)
+{
+    .grid {
+
+
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 16px;
+        
+        
+        
+        
+        }
+
+        .imagess{
+            height:400px
+        
+        }
+        
+        .gridd {
+
+
+      
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(3, 1fr);
+            
+            padding: 16px;
+            
+            
+            
+            }
+
+            #gridd {
+
+
+      
+                display: grid;
+                grid-gap: 16px;
+                grid-template-columns: repeat(3, 1fr);
+                
+                padding: 16px;
+                
+                
+                
+                }
+
+        select{
+            width:25%;
+        }
+
+.Cardpay{
+    width: 70%;
+}
+
+.Date{
+    width:auto
+}
+
+        .CardType{
+            display: flex;
+            flex-direction: row;
+            
+            background-color: rgb(246, 245, 245);
+        }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+        .CarddType{
+            display: flex;
+            flex-direction: row;
+            padding:16px;
+            padding-inline: 80px;
+            background-color:  white;
+        }
+
+
+        .searchBar{
+            margin-bottom: 10px;
+            width:60%;
+            position: relative;
+
+        }
+
+        .inputBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+
+        .TitleText{
+            font-size: 3.4rem;
+        }
+
+        .textHeader{
+            color:white
+        }
+
+        .about{
+            width: 50%;
+            padding: 70px;
+            position: relative;
+
+         } 
+ 
+    
+}
+
+
+.postCard {
+    margin-bottom:20px; position:relative; overflow:hidden;
+}
+
+

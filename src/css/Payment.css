@@ -1,0 +1,263 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+
+}
+body{
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+}
+.CardMain{
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.CardMain:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+
+
+@media(min-width:230px)
+{
+
+
+
+.cardNote{
+
+    display:flex; flex-direction:column; width:100%; padding:5px; position:relative;
+}
+
+    .grid {
+
+
+      
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+        
+        padding: 16px;
+        
+        
+        
+        }
+
+        .CardType{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+        }
+
+ .about{
+    width: 100%;
+    padding: 16px;
+    position: relative;
+ }       
+
+ .Date{
+     width:100%
+ } 
+ 
+        .searchBar{
+            margin-bottom: 10px;
+            width:100%;
+            position: relative;
+
+        }
+        select{
+            width:47%;
+        }
+ 
+        .Cardpay{
+            width: 100%;
+        }
+}
+
+@media(min-width:768px)
+{
+    .grid {
+
+
+      
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 16px;
+        
+        
+        
+        
+        }
+        select{
+            width:20%;
+        }
+
+        .cardNote{
+
+            display:flex; flex-direction:column; width:100%; padding:5px; position:relative;
+        }
+       
+        .searchBar{
+            margin-bottom: 10px;
+            width:80%;
+            position: relative;
+
+        }
+
+        .CardType{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding:16px;
+            
+        }
+        .Cardpay{
+            width: 100%;
+        }
+
+        .about{
+            width: 80%;
+            padding: 16px;
+            position: relative;
+
+         }   
+         .Date{
+            width:auto
+        }
+}
+
+
+@media(min-width:960px)
+{
+    .grid {
+
+
+       
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(3, 1fr);
+        
+        padding: 16px;
+        
+        
+        
+        }
+
+        .cardNote{
+
+            display:flex; flex-direction:column; width:53%; padding-left: 80px; padding-top:30px; position:relative;
+        }
+
+        .Date{
+            width:auto
+        }
+        .CardType{
+            display: flex;
+            flex-direction: column;
+            padding:16px;
+            padding-inline: 80px;
+           
+        }
+
+
+        .Cardpay{
+            width: 100%;
+             top:30px
+        }
+
+        .searchBar{
+            margin-bottom: 10px;
+            width:60%;
+            position: relative;
+
+        }
+        
+
+        select{
+            width:25%;
+        }
+ 
+        .about{
+            width: 60%;
+            padding: 16px;
+            position: relative;
+
+         } 
+         .Date{
+            width:auto
+        }
+ 
+    
+}
+
+
+
+@media(min-width:1200px)
+{
+    .grid {
+
+
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 16px;
+        
+        
+        
+        
+        }
+
+        select{
+            width:25%;
+        }
+
+
+        .cardNote{
+
+            display:flex; flex-direction:column; width:53%;  padding-left: 80px; padding-top:30px; position:relative;
+        }
+
+.Cardpay{
+    width: 50%;
+     top:30px
+}
+
+.Date{
+    width:auto
+}
+
+        .CardType{
+            display: flex;
+            flex-direction: column;
+            padding:16px;
+            padding-inline: 80px;
+           
+        }
+        .searchBar{
+            margin-bottom: 10px;
+            width:60%;
+            position: relative;
+
+        }
+        
+
+        .about{
+            width: 50%;
+            padding: 70px;
+            position: relative;
+
+         } 
+ 
+    
+}
+
+
+.postCard {
+    margin-bottom:20px; position:relative; border-radius:10px; overflow:hidden;
+}
+
+

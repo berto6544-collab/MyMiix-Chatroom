@@ -1,0 +1,236 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+
+}
+body{
+    font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+   
+    display: flex;
+    
+    position: sticky;
+    top: 0px;
+
+    flex-direction: row;
+    z-index: 100;
+}
+
+
+
+.my-modal{
+width: 100%;
+max-width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+
+}
+
+
+.my-modall{
+    
+    height: 100%;
+   
+    
+    
+    }
+
+
+ .leftContainer {
+    height: 40px;
+    display: flex;
+    align-self: start;
+    align-items: center;
+    flex-direction: row;
+    float: left;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .logo {
+        width: 45px;
+       
+      
+    }
+
+    .navtop{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .font{
+
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+.FontsHeader{
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+    .middleContainer {
+        height: 20px;
+        position:absolute;
+        left:30%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+       
+        align-self: center;
+        
+        
+    }
+
+    .fa{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin: 5px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+  }
+
+ 
+
+  @media (max-width: 900px) {
+  
+    .logo {
+      
+        width: 45px;
+      
+    }
+
+    .font{
+
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+
+    .FontsHeader{
+        font-size: 12px;
+        font-weight: 600; 
+    }
+
+    
+
+    .navtop{
+        display: none;
+        align-items: center;
+
+    }
+    .navbar a {
+        font-size: 15px;
+        margin: 5px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .middleContainer {
+        height: 20px;
+        position:absolute;
+        left:30%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+       
+        align-self: center;
+        
+        
+    }
+    
+    .fa{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+  }
+
+  @media (min-width: 900px) {
+
+    .navbar a {
+        font-size: 15px;
+        margin: 5px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+   
+   
+    .navtop{
+        display: flex;
+        align-items: center;
+
+    }
+    .fa{
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 45px;
+       
+      
+    }
+
+   
+
+.font{
+
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.FontsHeader{
+    font-size: 12px;
+    font-weight: 600; 
+}
+    
+    
+
+    .middleContainer {
+        height: 20px;
+        position:absolute;
+        left:45%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+       
+        align-self: center;
+        
+        
+    }
+
+}
+
+
+
+ .rightContainer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    float: right;
+    flex-direction: row;
+}
+
