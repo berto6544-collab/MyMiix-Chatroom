@@ -14,7 +14,7 @@ import Previeww from '../preview-url/src/previeww';
 import DialogUnite from '../components/DialogInviteChatroom';
 import { OpenUrl,OpenAboutMeUrl,UrlForMedia } from '../Utility/GetUrl'; 
 
-import { UpdatedPinnedMessage,userData } from '../API/API';
+import { UpdatedPinnedMessage,userData,finduserData } from '../API/API';
 
 
 
@@ -577,8 +577,7 @@ style={{width:'90%',resize:'none',color:'black',padding:10,border:'1px solid bla
 <div onClick={()=>{
 
 
-fetch(process.env.REACT_APP_API+'/userDatta?id='+item.displayName,{method:'GET'})
-.then(res=> res.json())
+finduserData(item.displayName)
 .then(responseJSON =>{
 
 this.setState({
@@ -1231,14 +1230,6 @@ if (value >= 1000)
 return value
 
 }
-
-
-
-
-
-
-  
-
 
 
 
