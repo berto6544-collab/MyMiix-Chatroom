@@ -1,21 +1,14 @@
 import React from 'react';
 import  'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
-import {Button,Container,Card,Carousel,Badge,Modal} from 'react-bootstrap';
 import AuthApi from "../components/AuthApi";
 import '../components/Feed.css';
-import Player from 'react-player';
-import { BrowserRouter as Router, Link, Redirect, Route,Switch } from 'react-router-dom';
-import {FavoriteBorder,Favorite,ChatBubble} from '@material-ui/icons';
-import Paymentss from '@material-ui/icons/Payment';
-import Utils from '../Utility/AuthUtils';
-import Dialogg from '../components/DialogFull';
 import Unite from './ChatRoom';
 import Cookies from 'js-cookie';
 import Utills from '../Utility/Utils';
 import Utilss from '../Utility/Utills';
 import UtilsChat from '../Utility/UtilsChat';
-import SocketUtils from '../components/SocketUtil';
+import { userData } from '../API/API';
 
 
 
@@ -42,8 +35,7 @@ function Profile(props) {
 
     
     if(Cookies.get('SCOM')){
-    fetch(process.env.REACT_APP_API+'/userData',{method:'GET'})
-    .then(response => response.json())
+    userData()
     .then(async(posts) => {
       //  const localsStream = await  navigator.mediaDevices.getUserMedia({audio:true,video:false})
 

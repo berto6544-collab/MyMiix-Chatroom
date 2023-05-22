@@ -1,10 +1,10 @@
-# Getting Started With Developerscope
+# Getting Started With MyMiix Chatrooms
 
 This project is a mymiix chatroom.<br />
 
 
 
-<img src="https://developerscope.com/assets/img/ScreenShot-Developerscope.png" />
+<div style="displa:flex;"><img width="300px" src="https://mymiix.com/public/assets/img/talk1.png" /><img width="300px" src="https://mymiix.com/public/assets/img/talk2.png" /></div>
 
 ## Features
 
@@ -22,14 +22,5 @@ This project is a mymiix chatroom.<br />
 - Using NodeJS
 - Using PeerJS
 - Using ReactJS
-
-
-
-
-
-
-
-
-
 
 

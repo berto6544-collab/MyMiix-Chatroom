@@ -1,5 +1,5 @@
 
-import React, { Component,Suspense } from 'react';
+import React from 'react';
 
 import './App.css';
 import { BrowserRouter as Router, Redirect, Route,Switch } from 'react-router-dom';
@@ -11,7 +11,7 @@ import Utils from './Utility/AuthUtils';
 import Utills from './Utility/Utils';
 import SocketUtillss from './Utility/SocketUtillsChat';
 import * as Themes from './Utility/Theme';
-
+import { userData } from './API/API';
 
 
 const Chatroom = React.lazy(() =>  import( "./pages/ChatRoomStart"));
@@ -101,8 +101,7 @@ const readCookie = () =>{
     setAuth(token);
     setuserId(userId);
 
-    fetch(process.env.REACT_APP_API+'/userData',{method:'GET'})
-    .then((response) => response.json())
+    userData()
     .then((responseJSON)=> {
        
       reactLocalStorage.setObject('user',responseJSON);
