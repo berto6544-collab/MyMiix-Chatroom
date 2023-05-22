@@ -4,17 +4,14 @@ import Utills from '../Utility/Utils';
 import '../components/styless.css';
 import 'font-awesome/css/font-awesome.min.css';
 import  'bootstrap/dist/css/bootstrap.css';
-import {Button,Badge,Modal} from 'react-bootstrap';
+import {Button,Modal} from 'react-bootstrap';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import '../components/Feed.css';
 import SocketUtills from '../Utility/SocketUtillsChat';
-import PreviewLive from '../preview-url/src/previewLive';
-import Player from 'react-player';
-import Previeww from '../preview-url/src/previeww';
 import DialogUnite from '../components/DialogInviteChatroom';
 import { OpenUrl,OpenAboutMeUrl,UrlForMedia } from '../Utility/GetUrl'; 
 
-import { UpdatedPinnedMessage,userData,finduserData } from '../API/API';
+import { UpdatedPinnedMessage,finduserData } from '../API/API';
 
 
 
